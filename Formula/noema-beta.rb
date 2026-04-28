@@ -5,21 +5,21 @@
 class NoemaBeta < Formula
   desc "The intentional memory layer for your AI agents (beta channel)"
   homepage "https://github.com/Fail-Safe/Noema"
-  version "0.10.0-beta.6"
+  version "0.10.0-beta.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.6/noema_0.10.0-beta.6_darwin_amd64.tar.gz"
-      sha256 "6c6c7ecc05918498b1c9d37de6a612257ec8a2d83cc111089f4a406fcab17561"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.7/noema_0.10.0-beta.7_darwin_amd64.tar.gz"
+      sha256 "e53616a98850db80d8b960ae6d61126d70fa73ef0232ce513c30efb3cfd60fa0"
 
       define_method(:install) do
         bin.install "noema"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.6/noema_0.10.0-beta.6_darwin_arm64.tar.gz"
-      sha256 "8b90f5b64a50eef174824a333abfbe31f27ddfb013dd01110b3db4b736dd84b4"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.7/noema_0.10.0-beta.7_darwin_arm64.tar.gz"
+      sha256 "8794853e1d55ac092c0e90fd398130f01668c9811c36a147b56279cdf8502f88"
 
       define_method(:install) do
         bin.install "noema"
@@ -29,15 +29,15 @@ class NoemaBeta < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.6/noema_0.10.0-beta.6_linux_amd64.tar.gz"
-      sha256 "27133b086ab70200df5f13deddfcf5478338ab6a67f47e36705988e63456e463"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.7/noema_0.10.0-beta.7_linux_amd64.tar.gz"
+      sha256 "e7e697f15a2ccb21d729e101200738eb21be4f485f470b6c299f2ba153793c50"
       define_method(:install) do
         bin.install "noema"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.6/noema_0.10.0-beta.6_linux_arm64.tar.gz"
-      sha256 "90f3a371e0f4b7df813d8752ce34c956b902ddeafe4e24258946dd12c76f560b"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.10.0-beta.7/noema_0.10.0-beta.7_linux_arm64.tar.gz"
+      sha256 "73984f809813b8019e51332b7c7708cb7f1befe5097f658aee0aee835ff0307d"
       define_method(:install) do
         bin.install "noema"
       end
