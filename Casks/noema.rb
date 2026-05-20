@@ -4,22 +4,22 @@ cask "noema" do
 
   on_macos do
     on_intel do
-      sha256 "5d3a6252760f6f08b4ba8bb93e4060864b81902d51f9e60bb689c6d5f411c1bb"
+      sha256 "39120ca9bd546addaa1185eb23fbda708a445347f2cedc4140c7912815fb7a5c"
       url "https://github.com/Fail-Safe/Noema/releases/download/v#{version}/noema_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "46111a1991cf34e6ae65aa57333e9c004a774498a8aaa97cf435db8829b4b726"
+      sha256 "06774d0d9620c07a1ef7df2748e074727eda235595ecfd8f27b09743c56ca0a7"
       url "https://github.com/Fail-Safe/Noema/releases/download/v#{version}/noema_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "4b19a8848f502c9bf33c61c18190b2f9a7388790943ec08a0b23244309b5758e"
+      sha256 "4c2c21ae8a686bf86b55aca28a58bc45ce55ea0a40d94c811ab7758a9974010f"
       url "https://github.com/Fail-Safe/Noema/releases/download/v#{version}/noema_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c354959d1625a712605285b44669448fa1036750ddb5bdd29e4201c95e24feba"
+      sha256 "1823d58cd1fa2a2fc35f1be3f1d7c0ccd954d45caf8843e9d80fc91081e451cb"
       url "https://github.com/Fail-Safe/Noema/releases/download/v#{version}/noema_#{version}_linux_arm64.tar.gz"
     end
   end
