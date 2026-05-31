@@ -11,7 +11,7 @@ class Noema < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/Fail-Safe/Noema/releases/download/v0.13.0/noema_0.13.0_darwin_amd64.tar.gz"
-      sha256 "21b0e81228c756a0593029dfc4e832ead77dcda311518cdb87439f2092856d56"
+      sha256 "50f32e58009287887912a038db4facb5a036ee18212c8c686d8eaff3540d01d4"
 
       define_method(:install) do
         bin.install "noema"
@@ -19,7 +19,7 @@ class Noema < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/Fail-Safe/Noema/releases/download/v0.13.0/noema_0.13.0_darwin_arm64.tar.gz"
-      sha256 "aa99af433a9b4b2d25cb22845bff567ce749865a8c5639be1fd3dc89660f13e5"
+      sha256 "e5315209367b9b45caa62ccf44979a4058dbd7ebaa4c3a692aadfcc639f4c2fa"
 
       define_method(:install) do
         bin.install "noema"
@@ -30,14 +30,14 @@ class Noema < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/Fail-Safe/Noema/releases/download/v0.13.0/noema_0.13.0_linux_amd64.tar.gz"
-      sha256 "5991270c9408d307d44bc7f234289a71cb7ce76e9e4006c5503dad4cfa3cd8e4"
+      sha256 "5343ad00711da49ff26c055bf33a862fb84aaec014b69f7398090a9fed03cbbf"
       define_method(:install) do
         bin.install "noema"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/Fail-Safe/Noema/releases/download/v0.13.0/noema_0.13.0_linux_arm64.tar.gz"
-      sha256 "63c730f93c8a29edf1c899bcfed7305c81dda4ab0bab11f6b224c9c17fe7e5de"
+      sha256 "089bf78ef30291a6c2a26207401c476ec87cbdd729c68a771b8bc4811dcac212"
       define_method(:install) do
         bin.install "noema"
       end
