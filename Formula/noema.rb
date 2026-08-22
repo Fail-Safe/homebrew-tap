@@ -1,26 +1,26 @@
 class Noema < Formula
   desc "The intentional memory layer for your AI agents"
   homepage "https://github.com/Fail-Safe/Noema"
-  version "0.21.1"
+  version "0.21.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.1/noema_0.21.1_darwin_arm64.tar.gz"
-      sha256 "4b2cf5ea414e0aedc8105299fdfc5a25288412bf9e800b2cba98c0e5fdf379a8"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.2/noema_0.21.2_darwin_arm64.tar.gz"
+      sha256 "8ee864db1c93827e9636453df027a610c0a2450c325c92977f3bc6b98d928072"
     else
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.1/noema_0.21.1_darwin_amd64.tar.gz"
-      sha256 "d2011a014e96d66192f2f341a32038e958cf095fe6e1b30ad1cf4bfd57d4a8ad"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.2/noema_0.21.2_darwin_amd64.tar.gz"
+      sha256 "217b637ea2919e1aeb808c350e997deb6ffc7d2868bc4fcae01379e3fa295872"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.1/noema_0.21.1_linux_arm64.tar.gz"
-      sha256 "9e7b0522ea2fa8a9c31f139c1d1ecbaf0a2c46b0a0ff946045e35b8312b64479"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.2/noema_0.21.2_linux_arm64.tar.gz"
+      sha256 "6fb03f4a9c56081f003fa3a5156955aff9f8cd3ba48bf36c27104ca7535647b5"
     else
-      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.1/noema_0.21.1_linux_amd64.tar.gz"
-      sha256 "77369565242f40950c0fffff1ec19ecfa27ea96a9bc206a56cfd91fffe8836ab"
+      url "https://github.com/Fail-Safe/Noema/releases/download/v0.21.2/noema_0.21.2_linux_amd64.tar.gz"
+      sha256 "b6ff4fd17900482a70519dafd9023aeccd06dc5f4ffc18448b85b310c07fb41a"
     end
   end
 
