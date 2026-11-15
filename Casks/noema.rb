@@ -1,8 +1,8 @@
 cask "noema" do
-  version "0.24.0"
+  version "0.24.1"
   arch arm: "arm64", intel: "amd64"
-  sha256 arm: "7bf37bc5c2b2a6fbf319a49de859e40b6cf48857fa718da0ec2bc29ff282bd72", intel: "7b32229b462b2793d23eddd3bd6b8aa489e3e0b6a13f212100b8fc4a1270e950"
-  url "https://github.com/Fail-Safe/Noema/releases/download/v0.24.0/noema_0.24.0_darwin_#{arch}.tar.gz"
+  sha256 arm: "126c959518f8e7e1fd584ba05c5ac22fadcbd032b8888a8c0ed7d3cca13ce844", intel: "a43a1ffa27749650a972efc6dd17ca4f89b699cdc932322b2a6e9f6838af81a8"
+  url "https://github.com/Fail-Safe/Noema/releases/download/v0.24.1/noema_0.24.1_darwin_#{arch}.tar.gz"
   name "Noema"
   desc "The intentional memory layer for your AI agents"
   homepage "https://github.com/Fail-Safe/Noema"
